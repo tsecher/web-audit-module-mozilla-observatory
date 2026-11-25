@@ -1,0 +1,57 @@
+{
+    "id": "mozilla_observatory",
+    "label": "Mozilla Observatory",
+    "description": "Mozilla Observatory",
+    "types": [
+      "domain"
+    ],
+    "structure": {
+      "mozilla_observatory": {
+        "label": "Mozilla Observatory",
+        "description": "The Mozilla Observatory data",
+        "structure": {
+          "url": {
+            "label": "Url",
+            "description": "The audited page",
+            "type": "string"
+          },
+          "grade": {
+            "label": "Grade",
+            "description": "The Grade.",
+            "type": "string"
+          },
+			    "details_url": {
+            "label": "Details url",
+            "description": "The details url.",
+            "type": "string"
+          },
+			    "score": {
+            "label": "Score",
+            "description": "The Score.",
+            "type": "string"
+          },
+			    "status_code": {
+            "label": "Status code",
+            "description": "The Status code.",
+            "type": "string"
+          },
+          "tests_failed": {
+            "label": "Tests failed",
+            "description": "The Tests failed.",
+            "type": "string"
+          },
+			    "tests_passed": {
+            "label": "Test passed",
+            "description": "The Test passed.",
+            "type": "string"
+          },
+			    "tests_quantity": {
+            "label": "Test quantity",
+            "description": "The Test quantity.",
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+  
